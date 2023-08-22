@@ -59,6 +59,6 @@ export default function App(){
   
 
   //return <Home/>;
-  return userInfo ? <Home/>  : <SignInScreen promptAsync={promptAsync}/>
+  return userInfo ? <Home userInfo = {userInfo} />  : <SignInScreen promptAsync={promptAsync}/>
 
 }
