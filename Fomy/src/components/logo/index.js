@@ -1,11 +1,13 @@
-import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, Image, TouchableOpacity, Vibration } from 'react-native';
 
 export function Logo() {
   return (
-    <View style={styles.container}>
-        <Image resizeMode='center' style={styles.Mascote} source={require('../../assets/alberto.png')}/>
-        <Image resizeMode='center' style={styles.Titulo} source={require('../../assets/logoTitulo.png')}/>
-    </View>
+    <TouchableOpacity onPress={() => Vibration.vibrate()}>
+      <View style={styles.container}>
+          <Image resizeMode='center' style={styles.Mascote} source={require('../../assets/alberto.png')}/>
+          <Image resizeMode='center' style={styles.Titulo} source={require('../../assets/logoTitulo.png')}/>
+      </View>
+    </TouchableOpacity>
   );
 }
 
