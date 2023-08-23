@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
     paddingLeft: 1,
     paddingRight: 1,
     marginTop: 15,
-    marginleft: 20
+    marginLeft: 20
   },
   bottonCadastroGoogle: {
     alignSelf: 'center',
