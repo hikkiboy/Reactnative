@@ -9,7 +9,7 @@ import userInfo from '../login/index';
 export function Home() {
   return (
     <View>
-    <Text> teste </Text>
+      {userInfo}
     </View>
     )
 }

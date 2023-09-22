@@ -1,6 +1,6 @@
 import * as React from "react";
-import  Home from "../Fomy/src/pages/home/index";
-import SignInScreen from "./src/pages/login";
+import  { Home }  from "../Fomy/src/pages/home/index";
+import SignInScrLeen from "./src/pages/login";
 import * as Google from "expo-auth-session/providers/google";
 import * as WebBrowser from "expo-web-browser";
 import {
@@ -10,6 +10,7 @@ import {
 } from "firebase/auth";
 import { auth } from './firebaseConfig'
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import LoginPage from "./src/pages/login";
 
 
 WebBrowser.maybeCompleteAuthSession();
@@ -58,7 +59,7 @@ export default function App(){
   },[])
   
 
-  //return <Home/>;
-  return userInfo ? <Home userInfo = {userInfo} />  : <SignInScreen promptAsync={promptAsync}/>
-
+  
+  return userInfo ? <Home userInfo = {userInfo} />  : <LoginPage promptAsync={promptAsync}/>
+  
 }

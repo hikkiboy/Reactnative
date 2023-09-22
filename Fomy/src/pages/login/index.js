@@ -3,7 +3,7 @@ import Ionicons from '@expo/vector-icons/Ionicons'
 import { Logo } from '../../components/logo';
 
 
-export default function Home({promptAsync}) {
+export default function LoginPage({promptAsync}) {
   return (
     <SafeAreaView>
       <Logo/>
@@ -12,7 +12,7 @@ export default function Home({promptAsync}) {
       <Text style={styles.loginCadastro}>Cadastro</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.bottonLogin} onPress={ () => {Alert.alert('Login feito com sucesso')}}>
+      <TouchableOpacity style={styles.bottonLogin} onPress={ () => promptAsync()}>
       <Text style={styles.login}>Login</Text>
       </TouchableOpacity>
 

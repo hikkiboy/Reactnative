@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "602283978436",
+    "project_id": "fomy-1860e",
+    "storage_bucket": "fomy-1860e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602283978436:android:cf5b605f33697002fe2391",
+        "android_client_info": {
+          "package_name": "com.stationary.fomy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602283978436-lqiegtnins6urafh8rtbnbup7vmd2od5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stationary.fomy",
+            "certificate_hash": "562c310f64f81670a4e514c02118f1b94511d3ec"
+          }
+        },
+        {
+          "client_id": "602283978436-9s7o0qlrobtkmm8fepvift2tm9tppoe9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2geZUgX7JzP9q-Z1jshlkF4kZ7NnPwDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602283978436-9s7o0qlrobtkmm8fepvift2tm9tppoe9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
