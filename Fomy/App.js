@@ -17,7 +17,7 @@ WebBrowser.maybeCompleteAuthSession();
 
 
 
-export default function App(){
+export  function App(){
   const [userInfo, setUserInfo] = React.useState();
   const [request, response, promptAsync] = Google.useAuthRequest({
     androidClientId: "192960584778-d1prdheqrt3l6fn750bi6f0t6it2l4j5.apps.googleusercontent.com",
